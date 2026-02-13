@@ -29,7 +29,7 @@ const images =[
     },
     {
         src:"images/games.jpg",
-        caption:"and we played games! roblox getting freaky"
+        caption:"we played games! and apparently had a 3some in roblox..."
     },
     {
         src:"images/firstday.jpg",
@@ -67,4 +67,5 @@ prevbtn.addEventListener("click",function() {
     }
     changeSlide();
 });
+
 
