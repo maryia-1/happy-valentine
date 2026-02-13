@@ -1,0 +1,522 @@
+body{
+    
+    background-image: radial-gradient(ellipse at bottom, rgb(248, 234, 234) 0%, rgb(239, 193, 201) 50%, rgb(243, 187, 196)100% );
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    cursor:url(images/meme-malow-cat-pack.png), auto;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow:2px 4px 6px white;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic; 
+    margin: 0;
+    position: relative;
+}
+
+h2{
+    color: white;
+    margin: 2rem;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 12px 25px ;
+    background: linear-gradient(145deg,#f0e4a0, #f8e5ad);
+    color: #94670d;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;  
+    align-items: center; 
+    text-decoration: none;
+}
+button:hover{
+    background: linear-gradient(145deg, #ffeca0, #fbd56c);
+    font-style: bold;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
+    transform: scale(1.07);
+    cursor: url(images/hes\ screaming.png), pointer;
+}
+
+button::after {
+    content: "";
+    position: absolute;
+    top:-50%;
+    left:-50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.4)10%, transparent 10%);
+    background-size: 20px 20px;
+    opacity:0.3;
+}
+.sparkles {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.sparkle{
+    position: absolute;
+    width: 35px;
+    opacity:0.6;
+    animation: twinkle 4s ease-in-out infinite;
+}
+.s1{
+    top:25%;
+    left: 20%;
+    animation-delay: 0s;
+}
+.s2{
+    left:75%;
+    top: 50%;
+    animation-delay: 1s;
+}
+
+@keyframes twinkle {
+   0%, 100% {
+    opacity:0.4;
+    transform:scale(1);
+   }
+   50%{
+    opacity:1;
+    transform:scale(1.2);
+   }
+}
+.martin-head{
+    position: absolute;
+    top:-40px;
+    right: 460px;
+    height:300px;
+    width:300px;
+    
+}
+
+/*second page my favorite things about uu*/
+.secondpage{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+h3{
+    font-size:40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 6px white;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.favbox {
+    background: rgba(231, 124, 124, 0.2);
+    padding: 15px 30px;
+    width: 27rem;
+    margin: 10px;
+    border: solid rgb(193, 134, 144);
+    border-radius: 25px;
+    backdrop-filter: blur(8px);
+    transition: 0.4s ease;
+    color: white;
+    font-size: 15px;
+}
+.favtext span{
+    display: block;
+    margin-bottom: 15px;
+
+}
+.computercat{
+    position: absolute;
+    top: 23.5rem;
+    right: 50px;
+    width: 20rem;
+}
+.catinverse{
+    position: absolute;
+    top:23.5rem;
+    right: 920px;
+    width: 20rem;
+}
+.mwah{
+    position: absolute;
+    width:13rem;
+    top: 10px;
+    right:90px;
+}
+.ilovebf{
+    position: absolute;
+    width: 13rem;
+    top:10px;
+    right:990px;
+}
+/*next page*/
+.arrow-btn {
+    position: fixed;
+    text-decoration: none;
+    top:10px;
+    left:10px;
+    padding: 12px 25px ;
+    background: linear-gradient(145deg,#f0e4a0, #f8e5ad);
+    color: #94670d;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    transition: 0.3s;
+}
+
+.arrow-btn:hover{
+    background: linear-gradient(145deg, #ffeca0, #fbd56c);
+    font-style: bold;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
+    transform: scale(1.07);
+    cursor: url(images/hes\ screaming.png), pointer;
+    text-decoration: none;
+}
+
+
+.back-btn:hover {
+    background: linear-gradient(145deg, #ffeca0, #fbd56c);
+    font-style: bold;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
+    transform: scale(1.07);
+    cursor: url(images/hes\ screaming.png), pointer;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    text-shadow:2px 4px 6px white;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic; 
+    margin: 0;
+    position: relative;
+}
+.slider{
+    width: 400px;
+    margin:30px auto;
+    margin-bottom: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide-content{
+    text-align:center;
+
+}
+
+.slide-content img{
+    width:400px;
+    height: 400px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.prev, .next{
+    font-size:30px;
+    cursor: url(images/hes\ screaming.png), pointer;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#slide-caption{
+    color: #4e421f;
+    text-shadow:2px 4px 6px rgba(0, 0, 0, 0);
+    font-size: 13px;
+    text-align: center;
+    margin: 5px;
+    position: relative;
+}
+.head{
+    width:300px;
+    height: auto;
+    position: absolute;
+    top:10px;
+    right: 780px;
+}
+.head2{
+    width:300px;
+    height:auto;
+    position: absolute;
+    top: 10px;
+    right:200px;
+}
+.next-btn{
+    position: fixed;
+    text-decoration: none;
+    left: 46.6%;
+    bottom:15px;
+    padding: 12px 25px ;
+    background: linear-gradient(145deg,#f0e4a0, #f8e5ad);
+    color: #94670d;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
+.next-btn:hover{
+    background: linear-gradient(145deg, #ffeca0, #fbd56c);;
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
+    transform: scale(1.07);
+    cursor: url(images/hes\ screaming.png), pointer;
+}
+.page4{
+    text-align: center;
+    width: 100%;
+}
+h5{
+    color: rgb(255, 255, 255);
+    text-shadow:2px 4px 6px white;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic; 
+    margin: 0;
+    position: relative;
+
+}
+.hats {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.hat {
+    width: 60px;
+    cursor: url("images/hes\ screaming.png"),grab;
+    position: static;
+   
+}
+
+.kitties {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    align-items: flex-end;
+    width:100%;
+    
+}
+
+.kitty {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow:visible;
+    
+}
+.kitty img{
+    width:100%;
+    height: auto;
+    object-fit: contain;
+    pointer-events: none;
+    display: block;
+}
+.kitty .hat{
+    width:60px;
+}
+.confetti{
+    position: fixed;
+    top:-10px;
+    width:8px;
+    height:12px;
+    animation: fall 5s linear forwards;
+
+}
+@keyframes fall {
+    to{
+        transform: translateY(100vh) rotate(720deg);
+        opacity:0;
+    }
+}
+
+@keyframes catSpin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: catSpin 0.8s ease-in-out;
+}
+
+#refreshbtn{
+    position: fixed;
+    top:10px;
+    right:10px;
+    padding: 12px 25px ;
+    background: linear-gradient(145deg,#f0e4a0, #f8e5ad);
+    color: #94670d;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+#refreshbtn:hover{
+    background: linear-gradient(145deg, #ffeca0, #fbd56c);
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6);
+    transform: scale(1.07);
+    cursor: url(images/hes\ screaming.png), pointer;
+}
+/*next page*/
+.page5{
+    position:fixed;
+    left:29.5%;
+    top: 100px;
+}
+h6{
+    color: rgb(255, 255, 255);
+    text-shadow:2px 4px 6px white;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic; 
+    margin: 0;
+    position: relative;
+}
+.mcflwr{
+    position: fixed;
+    top: 30px;
+    left:200px;
+    width: 10rem;
+    height:auto;
+}
+.redflwr{
+    position: fixed;
+    top:40px;
+    right: 200px;
+    width: 10rem;
+    height:auto;
+}
+.blueflwr{
+    position: fixed;
+    top:20rem;
+    left:220px;
+    width:10rem;
+    height:auto;
+}
+.cornflwr{
+    position:fixed;
+    top:20rem;
+    width: 10rem;
+    height:auto;
+    right:250px;
+}
+.allium{
+    position:fixed;
+    top: 12rem;
+    left: 60px;
+    width:10rem;
+    height:auto;
+}
+.lily{
+    position:fixed;
+    top:11rem;
+    right:70px;
+    width:10rem;
+    height:auto;
+}
+.tulip{
+    position:fixed;
+    top: 0px;
+    right:40px;
+    width: 10rem;
+    height:auto;
+}
+.pink-tulip{
+    position: fixed;
+    top:0px;
+    left:40px;
+    width:10rem;
+    height: auto;
+}
+.theend{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow:2px 4px 6px white;
+    font-size: 100px;
+    text-align: center;
+}
+.savemartin{
+    position:fixed;
+    top:3rem;
+    left:7rem;
+    width:15rem;
+    height:auto;
+}
+.olivelover{
+    position:fixed;
+    top:3rem;
+    right: 10rem;
+    width:15rem;
+    height:auto;
+    border-radius: 20px;
+}
+.daddy{
+    position: fixed;
+    top:20rem;
+    left:5rem;
+    width: 15rem;
+    height: auto;
+    border-radius: 20px;
+}
+.mf{
+    position:fixed;
+    top:5rem;
+    left:30rem;
+    width: 20rem;
+    height:auto;
+
+}
+.hehe{
+    position:fixed;
+    top:20rem;
+    right:5rem;
+    width:15rem;
+    height:auto;
+    border-radius: 20px;
+}
+.poopsik{
+    position:fixed;
+    bottom:2rem;
+    left:25rem;
+    width: 20rem;
+    height:auto;
+}
+.poopsik2{
+    position:fixed;
+    top: 350px;
+    right:400px;
+    width: 20rem;
+    height:auto;
+
+}
