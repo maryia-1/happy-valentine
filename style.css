@@ -519,6 +519,27 @@ h6{
     right:400px;
     width: 20rem;
     height:auto;
-
+}
+.page5{
+    position:relative;
+}
+.textbox {
+    background: rgba(231, 124, 124, 0.2);
+    padding: 15px 30px;
+    width: 27rem;
+    margin: 10px;
+    border: solid rgb(193, 134, 144);
+    border-radius: 25px;
+    backdrop-filter: blur(8px);
+    transition: 0.4s ease;
+    color: white;
+    font-size: 15px;
+    position: fixed;
+    top: 4rem;
+}
+.text span{
+    display: block;
+    margin-bottom: 15px;
 
 }
+
